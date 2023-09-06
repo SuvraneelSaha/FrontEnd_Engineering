@@ -69,6 +69,30 @@ Example
 
 >"The sin of doing nothing is the deadliest of all the seven sins. It has been said that for evil men to accomplish their purpose it is only necessary that good men should do nothing."
 
+### Bold
+
+~~~
+To make any text bold or words or a paragraphs 
+use **Bold**
+~~~
+
+Example
+
+Make this **Word** Bold bu using double asterisk symbol
+
+### italic
+
+~~~
+Make any text italic by using underscores 
+Example -
+
+_italic words_ 
+~~~
+
+Example 
+
+_italic words_
+
 ### Links 
 
 ~~~
