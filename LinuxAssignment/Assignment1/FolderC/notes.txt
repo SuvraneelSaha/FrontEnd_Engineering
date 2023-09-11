@@ -7,3 +7,10 @@ theory will take you only so far
 Linux is black Magic but I Love it 
 
 testing again the ssh keys 
+
+SSH Keys added to the Github Account 
+Steps included 
+first make the SSH key 
+then add it to the SSH Agent 
+then add it to the Github 
+and viola 
