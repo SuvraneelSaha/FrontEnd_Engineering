@@ -13,6 +13,15 @@ Contents
 ~~~
 
 ~~~
+All the above commands will be in normal mode 
+and to enter normal mode press ESC 
+~~~
+
+~~~
+Deletion can be clubed with Jumping of words 
+~~~
+
+~~~
 Moving up to the start of the file 
 Use 
 command : gg 
