@@ -8,6 +8,15 @@ Example - ls > dump.txt
 ~~~
 
 ~~~
+We can actually club the commands 
+
+the vs code can run and exeecute a java file 
+all the internal things happens in the terminal 
+it clubs all the commands and all the cmds are separated by & 
+
+~~~
+
+~~~
 What happens is that when we use > command it replaces whatever that is present inside of the dump.txt file 
 and will replace with the new dumping 
 
