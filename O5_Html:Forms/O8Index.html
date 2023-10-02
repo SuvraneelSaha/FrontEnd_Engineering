@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Action and Method in forms</title>
+</head>
+<body>
+  
+<form action="serverName" method="post">
+  <!-- post is the protocol or rules by which we send the information of this 
+  form to the server over the internet  -->
+  <!-- action is the url of the server that will receive the submitted information from this form -->
+
+  <input type="text" name="firstName" value="John Doe" placeholder="Enter your name" autofocus>
+
+  <input type="text" name="address" value="ABC Nagar" placeholder="Enter your address">
+  
+  <input type="number" name="age" min="10" max="110" placeholder="enter your age">
+  <!-- The maxlength attribute specifies the maximum number of characters allowed in the <input> element. -->
+
+  <input type="email" minlength="5" maxlength="50" name="email" placeholder="Enter your email">
+
+  <input type="submit" value="submit">
+
+
+</form>
+
+</body>
+</html>
