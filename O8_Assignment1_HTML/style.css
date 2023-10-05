@@ -1,0 +1,177 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header{
+  width: 50%;
+  margin: auto;
+}
+
+header h1{
+ 
+  text-decoration: underline;
+}
+.maindiv{
+  width: 50%;
+  margin: auto;
+  background-color: #ccd6e680;
+  border-radius: 12px;
+}
+img{
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: auto;
+}
+hr{
+  width: 30%;
+  
+}
+a[href^='tel']::before {
+  content: '📞 ';
+}
+
+a[href^='mailto']::before {
+  content: '📧 ';
+}
+
+form{
+  text-align: center;
+  display: block;
+}
+form textarea{
+ 
+  width: 50%;
+  margin: auto;
+}
+
+.travel{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.headings{
+  text-align: center;
+}
+
+span {
+  display: table;
+  margin: 0 auto;
+}
+/* how to center a span  */
+
+.travel_ul{
+  list-style-type: none;
+  margin: 10px ;
+}
+
+.travel_ul p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.travel_ul .headings{
+  text-transform: uppercase;
+  text-decoration:underline;
+}
+
+.contact input{
+  width: 50%;
+  margin-bottom: 18px;
+  height:30px;
+  border: 2px solid black;
+  border-radius: 4px;
+
+}
+
+.contact textarea{
+  margin-bottom: 18px;
+}
+
+.contact button{
+  display: block;
+  margin: auto;
+  width:fit-content;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-bottom: 28px ;
+}
+
+.contact button:hover{
+  cursor: pointer;
+}
+
+footer{
+  background-color: antiquewhite;
+  border-radius: 3px;
+}
+
+.climate_ul, .UniqueFeatures_ul{
+  width: 30%;
+  margin: 18px auto;
+  line-height: 28px;
+}
+
+.intro_p{
+  text-align: center;
+  width: 50%;
+  margin:18px auto;
+  line-height: 28px;
+}
+
+.Intro span{
+  text-decoration: underline;
+}
+
+.attractions ul{
+  list-style-type: none;
+}
+
+.attractions p {
+  text-align: center;
+  margin: 18px 10px;
+}
+
+.attractions img{
+  display: block;
+  /* as img are inline elements */
+  width: 50%;
+  margin: 18px auto;;
+  border-radius: 3px;
+
+}
+
+.accommodation ul{
+  list-style-type: none;
+}
+
+.accommodation p{
+  text-align: center;
+  margin: 18px 10px;
+  line-height: 28px;
+}
+
+.accommodation img{
+  display: block;
+  width: 50%;
+  margin: 18px auto;
+  border-radius: 3px;
+}
+
+.accommodation ul address {
+  text-align: center;
+  margin: 28px auto;
+}
+
+.accommodation .Hotels{
+  text-transform: uppercase;
+}
+
+.travel address a{
+  display: block;
+  margin: 10px;
+}
+
