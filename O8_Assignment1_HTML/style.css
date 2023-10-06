@@ -1,10 +1,23 @@
 body::-webkit-scrollbar {
   display: none;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@500&display=swap');
 header{
   width: 50%;
   margin: auto;
+  height: 200px;
+  background-image: url(https://lh5.googleusercontent.com/p/AF1QipNjEk2pNwHHmGZABSCNN3BLw3SA9lSC1RdA9g-w=w548-h318-n-k-no);
+  background-position: center;
+  background-size:cover ;
+  text-align: center;
+  border-radius: 12px;
+}
+
+header p{
+  line-height: 28px;
+  color: #000;
+  
+  font-family: 'Onest', sans-serif;
 }
 
 header h1{
@@ -17,6 +30,11 @@ header h1{
   background-color: #ccd6e680;
   border-radius: 12px;
 }
+
+.maindiv div h3{
+  
+}
+
 img{
   background-size: cover;
   background-position: center;
