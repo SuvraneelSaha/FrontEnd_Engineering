@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    Student Registration Form
+  </h1>
+
+  <table align="center">
+    <tr>
+      <td><label for="firstName">First Name :</label></td>
+      <td><input type="text" placeholder="firstName" id="firstName" name="firstName" maxlength="40"></td>
+      <td><p>(max 40 characters a-z or A-Z)</p></td>
+    </tr>
+    <tr>
+      <td><label for="secondName">Second Name :</label></td>
+      <td><input type="text" placeholder="secondName" id="secondName" name="secondName" maxlength="40"></td>
+      <td><p>(max 40 characters a-z or A-Z)</p></td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="dob">Date of Birth:</label>
+      </td>
+      <td>
+        <input type="date" name="dob" id="dob">
+      </td>
+    </tr>
+
+    <!-- email -->
+    <tr>
+      <td><label for="email">Email : </label></td>
+      <td><input type="email" name="email" id="email" placeholder="email"></td>
+
+    </tr>
+
+    <!-- Mobile Number -->
+    <tr>
+      <td><label for="mobile">Mobile Number : </label></td>
+      <td><input type="number" name="mobile" id="mobile" maxlength="10"></td>
+      <td><p>(10 digits only)</p></td>
+
+    </tr>
+
+    <tr>
+      <td><label for="gender">Gender : </label></td>
+      <td><label for="maleGender">Male</label></td>
+      <td><input type="radio" name="gender" id="maleGender" value="Male"></td>
+      <td><label for="femaleGender">Female</label></td>
+      <td><input type="radio" name="gender" id="femaleGender" value="Female"></td>
+      <td><label for="transGender">TransGender</label></td>
+      <td><input type="radio" name="gender" id="transGender" value="Transgender"></td>
+    </tr>
+
+
+    <!-- the key will be the name attribute  -->
+
+    <!-- input type ="date" means date , as the whole original calender will be given by the browser only  -->
+  </table>
+</body>
+</html>
