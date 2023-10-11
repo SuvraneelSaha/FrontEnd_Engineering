@@ -1,0 +1,41 @@
+*{
+  /* background-color: antiquewhite; */
+  /* here what happens is that the * selector selects all the elements in the webpage and 
+  assigns the css property's value to it  */
+  /* so better not to use any colors or some stuffs like that  */
+
+/* all h1 p tags all tags all elements  */
+
+}
+
+header{
+  background-color: aquamarine;
+  /* only the color is getting applied in the background and for all the other elements the * 
+  selector overrides it  */
+}
+
+h2{
+  background-color: beige;
+}
+
+body{
+  background-color: antiquewhite;
+}
+/* this is a better way to give background color  */
+
+header h4{
+   color: blue;
+}
+
+/* this header h4 will override the body  */
+
+div{
+  color: violet;
+}
+/* this is css specificity */
+
+.mid_text{
+  font-weight: bolder;
+  font-size: 50px;
+}
+/* this above is class selector */
