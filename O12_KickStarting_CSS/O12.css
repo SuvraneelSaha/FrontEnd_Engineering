@@ -9,7 +9,7 @@
 }
 
 header{
-  background-color: aquamarine;
+  background-color: white;
   /* only the color is getting applied in the background and for all the other elements the * 
   selector overrides it  */
 }
@@ -39,3 +39,18 @@ div{
   font-size: 50px;
 }
 /* this above is class selector */
+
+#head_text{
+  font-size: 50px;
+  text-decoration-line:underline;
+  text-decoration-style:solid;
+  /* Docs : https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+
+}
+
+input[disabled]
+{
+  background-color: black;
+}
+
+/* input[disabled] attribute selector */
