@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html{
+      box-sizing: border-box;
+    }
+    *, *:before, *:after
+    {
+      box-sizing: inherit;
+    }
+
+
+    .demo1{
+      border: 5px solid red;
+      width: 500px;
+      margin: 0px auto;
+      box-sizing: content-box;
+      
+    }
+    .demo2{
+      border: 5px solid cyan;
+      width: 500px;
+      margin: 0px auto;
+      box-sizing: content-box;
+    }
+  .demo1_inside{
+      border: 5px solid black;
+      width: 50px;
+      margin: 0px auto;
+      
+  }
+  </style>
+</head>
+
+<body>
+  <div class="demo1">
+    Demo 1
+    <div class="demo1_inside">
+      Demo 1 Inside 
+    </div>
+  </div>
+
+  <div class="demo2">
+    Demo 2 
+  </div>
+  
+</body>
+</html>
