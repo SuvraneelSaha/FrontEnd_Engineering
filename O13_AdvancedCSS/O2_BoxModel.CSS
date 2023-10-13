@@ -1,0 +1,20 @@
+#demo{
+  border: 5px solid red;
+  /* this above is the shorthand property  */
+
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: red; */
+
+
+padding:10px;
+width:200px;
+margin-bottom: 10px;
+}
+
+#demo2{
+  border: 5px solid red;
+  padding:10px;
+  width:200px;
+  margin-top: 10px;
+}
