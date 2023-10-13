@@ -6,10 +6,12 @@
   <title>Document</title>
   <style>
     html{
+      /* unless changed every element has border-box */
       box-sizing: border-box;
     }
     *, *:before, *:after
     {
+      /* we allow the child to follow the parent's box-sizing value  */
       box-sizing: inherit;
     }
 
