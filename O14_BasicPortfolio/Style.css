@@ -174,7 +174,44 @@ footer{
   padding: 2rem 0;
 
 }
+.my-picture{
+  max-height: 500px;
+  max-width: 350px;
+}
+.my-picture img{
+  width: 100%;
+  /* will take the width of the parent */
+  margin: 1rem 0;
+  border-radius: 5px;
+}
 
+/* time for some flexbox */
+
+#experience{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  /* justify-content: main axis ie X axis */
+  /* align-items: cross axis ie Y axis */
+  /* gap: 5rem; */
+
+}
+
+
+#experience ul{
+  max-width: 400px;
+  border: solid white 2px;
+  border-radius: 5px;
+  background-color: var(--turquoise);
+  padding: 1rem;
+}
+
+#experience-header{
+  font-size: 3rem;
+  width: 200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries */
 
