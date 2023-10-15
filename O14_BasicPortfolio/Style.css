@@ -42,6 +42,9 @@ h1,h2,h3,h4,h5,h6{
 #intro{
   padding-bottom: 5rem;
 
+  padding: 4rem 1rem 5rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 
@@ -104,6 +107,7 @@ nav{
   font-size: 80%;
   /* proportional increase with respect to  the screen size */
   padding: 1rem;
+  background-color: var(--cobalt);
 }
 nav ul{
   list-style-type: none;
@@ -115,6 +119,10 @@ nav ul{
   align-items: center;
   /* cross axis */
   gap: 2em;
+
+  margin-right: 2rem;
+
+  flex-flow: row wrap;
 
 
 }
@@ -133,7 +141,50 @@ nav a:hover{
 }
 
 nav li:first-child{
-  flex-grow: 1;
+  /* flex-grow: 1; We will write a media query to bring this back */
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow */
+  flex-basis: 100%;
   font-size: 1.5rem;
+  margin-left: 3rem;
+
+
 }
+
+.button{
+  background-color: orangered;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+}
+
+.button:hover{
+  color: white;
+  
+background: linear-gradient(153deg, rgba(193,145,235,1) 21%, rgba(255,97,6,1) 32%, rgba(62,152,214,1) 62%);
+
+}
+
+.gradient-section{
+  height: 2px;
+  background: linear-gradient(153deg, rgba(228,235,145,1) 17%, rgba(71,223,78,1) 32%, rgba(128,196,242,1) 75%); ;
+}
+
+footer{
+  text-align: center;
+  padding: 2rem 0;
+
+}
+
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries */
+
+@media (min-width:600px)
+{
+  nav li:first-child{
+    /* flex-grow: 1; We will write a media query to bring this back */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow */
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+}
+/* this above is known as mobile first design */
