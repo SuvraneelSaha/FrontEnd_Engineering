@@ -1,0 +1,138 @@
+:root{
+  --teal:#031634;
+  --cobalt:#033649;
+  --turquoise:#066464;
+  --beige:#CEB280;
+  --gold:#EADDCC;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+}
+
+html{
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+/* in case of every browser it adds some default level of margin and padding  */
+/* em vs rem vs px 
+em - relative to the parent element 
+h1 em > h2 em  */
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: var(--teal);
+
+}
+
+.section_turquoise{
+  background-color: var(--turquoise);
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+/* even after removing margin the(h2 and the div) content ie text are not colliding  */
+
+/* in case of margin in the vertical direction - if a > b then a is the margin else if a==b then a or b is the margin and if a < b then b is the margin   */
+/* no summation of the margins of two subsequent elements  */
+
+#intro{
+  padding-bottom: 5rem;
+
+}
+
+
+#intro p{
+  font-size: 1.5rem;
+  
+  line-height: 1.5;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/line-height */
+  /* 1.5 being a relative measurement size , the line height scales according to zoom in and zoom out  */
+}
+
+.name span{
+  display: block;
+  color: var(--gold);
+  font-size: 4rem;
+}
+
+.profile{
+  padding-bottom: 1rem;;
+}
+
+#intro h2{
+  font-size: 3rem;
+  font-weight: normal;
+}
+#experience ul{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+#experience li{
+  /* text-decoration: none; */
+  list-style-type: none;
+  padding: 1rem;
+  
+
+}
+
+#experience a{
+  color: white;
+
+}
+
+#hire{
+  background-color: var(--turquoise);
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  /* the remaining space except the 400px will be equally distributed between the left and the right  */
+  padding: 3rem 0;
+}
+
+#hire p:last-child{
+  margin-top: 3rem;
+  /* last child of that element  */
+}
+
+nav{
+  font-size: 80%;
+  /* proportional increase with respect to  the screen size */
+  padding: 1rem;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display:flex;
+  justify-content: center; 
+  /* main axis */
+  align-items: center;
+  /* cross axis */
+  gap: 2em;
+
+
+}
+
+nav a{
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+}
+nav a:hover{
+  color: var(--beige);
+  font-size: 1.2rem;
+  text-decoration: underline;
+
+}
+
+nav li:first-child{
+  flex-grow: 1;
+  font-size: 1.5rem;
+}
