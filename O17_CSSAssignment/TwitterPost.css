@@ -3,5 +3,72 @@ html{
 }
 *,*::after,*::before{
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
+.thumbnail img{
+  width: 48px;
+  border-radius: 100%;
+}
+
+.icon img{
+  width: 16px;
+  color: #536471;
+}
+
+.tweet{
+  background-color: beige;
+  border: 1px solid #cfd9de;
+  border-radius: 16px;
+  padding: 12px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tweet_parent{
+
+}
+
+.name{
+  color: #000;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.metadata{
+  color: #71767b;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.message{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #0f1419;
+  padding-left: 60px ;
+}
+
+.actionsRow{
+  max-width: 425px;
+  display: flex;
+  padding-left: 60px ;
+  justify-content: space-between;
+  margin-top: 12px ;
+
+}
+
+.actionCount{
+  color: #536471;
+  font-size: 13px;
+  padding-left: 12px;
+}
+
+.name , .metadata{
+  padding-left: 12px;
+}
+
+.profile_intro{
+  padding-bottom: 2px;
+}
