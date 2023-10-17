@@ -1,0 +1,84 @@
+html{
+  box-sizing: inherit;
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  /* until and unless explicitly defined no margin and padding will be given to any elements inside of 
+  body */
+}
+
+.profile_image{
+  width: 48px;
+ background-size: cover;
+  border-radius: 50%;
+}
+.name {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.parent_Container{
+  background-color: white;
+  border: 1px solid #cfd9de;
+  border-radius: 1rem;
+  padding: 12px;
+  display: flex;
+ 
+  gap: 12px;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 230px;
+}
+
+.metadata {
+  color: #71767b;
+  font-size: 15px;
+}
+
+.message {
+  color: #0f1419;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+/* icons div */
+.icons {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  max-width: 425px;
+}
+
+.icon {
+  color: #536471;
+  font-size: 13px;
+}
+
+.icondiv span {
+  margin-left: 12px;
+  color: #536471;
+  font-size: 13px;
+}
+
+.fa-regular {
+  color: #536471;
+  size: 1rem;
+}
+
+.fa-solid {
+  color: #536471;
+  size: 1rem;
+}
+.icondiv {
+  display: flex;
+  align-items: center;
+}

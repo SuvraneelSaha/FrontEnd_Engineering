@@ -27,10 +27,14 @@ body {
   padding: 12px;
   width: 50%;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+   
 }
 
 .tweet_parent{
-
+  display: flex;
+  
 }
 
 .name{
