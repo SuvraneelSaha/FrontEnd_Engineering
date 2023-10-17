@@ -3,11 +3,14 @@ html{
 }
 *,*::after,*::before{
   box-sizing: inherit;
+ 
+}
+body {
   margin: 0;
   padding: 0;
 }
 
-.thumbnail img{
+.thumbnail {
   width: 48px;
   border-radius: 100%;
 }
