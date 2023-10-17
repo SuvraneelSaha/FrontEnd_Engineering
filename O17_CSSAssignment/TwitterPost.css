@@ -8,11 +8,39 @@ html{
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.tweet_parent{
+  width: 100%;
+}
+
+.img_profile{
+  display: flex;
+  flex-direction: row;
+  
+}
+p{
+  margin: 0;
+  margin-top: 2px;
+}
+.profile_intro{
+  /* padding-bottom: 2px; */
+  margin-left: 12px;
+  /* whole element outside space changes position with margin  */
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
 }
 
 .thumbnail {
   width: 48px;
-  border-radius: 100%;
+  border-radius: 999px;
 }
 
 .icon img{
@@ -21,7 +49,7 @@ body {
 }
 
 .tweet{
-  background-color: beige;
+  background-color: ;
   border: 1px solid #cfd9de;
   border-radius: 16px;
   padding: 12px;
@@ -54,7 +82,8 @@ body {
   font-family: sans-serif;
   font-size: 15px;
   color: #0f1419;
-  padding-left: 60px ;
+  /* padding-left: 60px ; */
+  margin-left: 12px;
 }
 
 .actionsRow{
@@ -72,10 +101,7 @@ body {
   padding-left: 12px;
 }
 
-.name , .metadata{
+/* .name , .metadata{
   padding-left: 12px;
-}
+} */
 
-.profile_intro{
-  padding-bottom: 2px;
-}
