@@ -21,17 +21,69 @@ html{
 .moving{
   width: 50px;
   height: 50px;
-  background-color: blue;
-  border-radius: 25px;
+  
+  /* border-radius: 25px; */
   /* transform:rotate(45deg) translate(120px); */
+  border: 5px solid red;
+  border-radius: 25px;
+  background-color: blue;
+  animation-name: rotator;
+ animation-iteration-count: infinite;
+ animation-duration: 5s; 
+ animation-timing-function: ease-out;
+}
+
+/* as we are not using this just changed it to # id */
+#moving:hover{
+  /* transform: scale(2,2) translateX(200px); */
+  transform: rotate(180deg);
+  transition-delay: 1s;
+  /* it means that the transition will start after the given value ie here 2s */
+  transition-duration: 5s;
+  /* it means it will take 5s to move to the final state  */
+  background-color: red;
+
+  /* margin-left: 200px; */
+  transition-property: all;
+  /* transition-property - it includes the css properties that will be used in the transition  */
+  /* if value is given all then all the css properties will be taken into action */
+
+  transition-timing-function: ease-out;
+  /* the total transition time will be utilised by transitiontimingfunction */
+  
+    /* transform: translate(120px,112px);
+    either translateX or translateY 
+    transform : rotate(45deg) translateX(120px);
+    values can be clubbed inside of a css property  */
+
+
+}
+@keyframes rotator {
+  0%{
+    transform: translateX(-500px);
+    /* transform: rotate(0deg);
+    background-color: blue; */
+  }
+  50%{
+    transform: translateX(500px);
+    /* background-color: green; */
+  }
+  100%{
+    transform: translateX(-500px);
+    /* transform: rotate(180deg);
+    background-color: red; */
+  }
   
 }
-/* 
-    transform: translate(120px,112px);
-    either translateX or translateY  */
-
-/* transform : rotate(45deg) translateX(120px) */
 
 .moving:hover{
-  transform: scale(2,2);
+  /* transform: rotate(180deg);
+  transition: all 5s 1s ease-out; */
+
+ animation-name: rotator;
+ animation-iteration-count: infinite;
+ animation-duration: 5s; 
+  /*same as transition duration
+  transition happens once */
+  animation-timing-function: ease-out;
 }
