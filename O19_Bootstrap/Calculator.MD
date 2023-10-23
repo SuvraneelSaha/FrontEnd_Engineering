@@ -12,3 +12,27 @@ justify-content-space-between
 space has been slightly pushed on both the sides so that 
 it does not take extra space on  the other end 
 ~~~
+
+~~~
+Why we put the whole content ie the 5 rows and in the first 4 rows 4 cols inside the 
+col div and then inside of the row class --> Cause then all the 4 rows will be inside of a column 
+and it everything will be inside of a single column 
+
+if we want for out content to take col space 
+~~~
+
+~~~
+col-auto --> takes width equal to that of the content 
+~~~
+
+~~~
+col --> takes the whole width of the parent
+~~~
+
+~~~
+w-100 for taking of the whole parent's width
+
+form-control : for shape 
+
+mb-1 : margin bottom 
+
