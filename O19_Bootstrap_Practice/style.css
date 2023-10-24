@@ -1,0 +1,10 @@
+.total{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#minus{
+  width: 100%;
+}
