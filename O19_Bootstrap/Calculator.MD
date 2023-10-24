@@ -30,9 +30,13 @@ col --> takes the whole width of the parent
 ~~~
 
 ~~~
-w-100 for taking of the whole parent's width
+w-100 for taking of the whole 100% space of the  parent's width
 
 form-control : for shape 
 
 mb-1 : margin bottom 
+~~~
 
+~~~
+Assignment : Do the spacing in such a way that all the rows and cols are evenly separated 
+hint justify content
