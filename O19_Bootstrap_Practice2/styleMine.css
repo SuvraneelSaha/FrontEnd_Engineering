@@ -1,0 +1,83 @@
+html{
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.btn__gray{
+  background-color: #A5A5A5;
+}
+.btn__yellow{
+  background-color: #FE9505;
+}
+.btn__lightblack{
+  background-color: #333333;
+}
+h2{
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding-bottom: 20px;
+  background-color: rgb(223, 195, 195);
+}
+
+.row{
+  display: flex;
+}
+
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  margin: 8px;
+
+}
+
+#display{
+  display: flex;
+  /* justify-content: flex-end; */
+  /* text-align: right; */
+  font-size: 24px;
+  /* flex: 1; */
+  height: 80px;
+  width: 280px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  box-shadow: none;
+   /* Removing the Outline of the text Field */
+  outline: none;
+  border-radius: 15px;
+}
+
+.zero{
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* flex:1; */
+  text-align: center;
+
+}
