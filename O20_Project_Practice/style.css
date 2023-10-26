@@ -1,7 +1,25 @@
+body{
+  background-color: #181818;
+}
+
 .navcustom{
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-start;
+}
+
+.customdivider{
+  height: 3rem;
+  background-color: grey;
+}
+
+.customfootercolor{
+  background-color: #181818;
+  color: #fff;
+}
+
+.custom-ul li{
+  color: #fff;
 }
