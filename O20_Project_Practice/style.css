@@ -1,0 +1,7 @@
+.navcustom{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
