@@ -23,3 +23,6 @@ body{
 .custom-ul li{
   color: #fff;
 }
+.carousel-inner img{
+  vertical-align: top
+}
