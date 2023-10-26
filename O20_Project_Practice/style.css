@@ -12,7 +12,7 @@ body{
 
 .customdivider{
   height: 3rem;
-  background-color: grey;
+  background-color: #181818;
 }
 
 .customfootercolor{
@@ -25,4 +25,15 @@ body{
 }
 .carousel-inner img{
   vertical-align: top
+}
+
+.ResponsiveVideo{
+  width: 100%;
+  
+}
+
+.ExploreClubs_content{
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
 }
