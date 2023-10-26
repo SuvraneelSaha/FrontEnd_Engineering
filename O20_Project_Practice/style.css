@@ -56,3 +56,14 @@ body{
   
 }
 
+.col-card-ultra{
+  height: 380px;
+ 
+}
+
+.col-card-elite{
+  height: 340px;
+}
+.col-card-pro{
+  height: 300px;
+}
