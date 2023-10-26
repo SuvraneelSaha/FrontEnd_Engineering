@@ -40,15 +40,19 @@ body{
 .card-container{
   display: flex;
   justify-content: flex-start;
-  flex-direction: r;
+  justify-content: center;
+  flex-direction: row;
 }
 .card-bg{
   background-color: #181818;
   color: #fff;
   width: 255px;
-  
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
-
+.custom-img-size{
+  width: 250px;
+  height: 200px;
+  
+}
 
