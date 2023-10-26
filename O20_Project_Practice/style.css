@@ -37,3 +37,15 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+.card-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: r;
+}
+.card-bg{
+  background-color: #181818;
+  color: #fff;
+  width: 255px;
+  
+  margin: 1rem;
+}
