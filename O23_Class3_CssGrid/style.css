@@ -1,0 +1,66 @@
+body{
+  background-color: aqua;
+}
+
+h1{
+  color: rgb(41, 78, 225);
+}
+
+.grid-wrapper{
+  background-color: beige;
+  border: 1px solid red;
+
+  display: grid;
+  /* you have to tell dimensions of rows and columns  */
+  grid-template-columns: repeat(4,5rem);
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: repeat(4,1fr);
+  /* takes fractional unit of the parent 
+  in this case if 1fr 1fr 1fr is present then each one takes
+  33.33%  /*
+  /* grid-template-columns: repeat(4,25%); */
+  /* width for the columns given */
+  /* automatically calculate the number of rows */
+  /* we will come back to rows  */
+  /* we define the number of cols in the grid  */
+
+  /* fr below */
+  /* just like flex-basis and flex-grow
+  4 flex items then flex - 1 2 1 then the middle one will take 2 units  */
+
+
+
+  row-gap: 1rem;
+  column-gap: 2rem;
+  /* both row and column gapping is done  */
+  /* explicitly we can give gap  */
+  /* grid-column-gap */
+  /* grid-row-gap */
+  /* grid-gap not using 
+  use gap and instead of grid-column-gap we use column-gap and row-gap instead of grid-row-gap  */
+
+}
+
+.grid-wrapper > div{
+  padding: 3rem;
+  background-color: brown;
+}
+
+.item7{
+  grid-column: span 2;
+}
+.item8{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  /* grid-column: span 3; */
+  /* not just he individual sizing also the positioning can be controlled using grid and the 
+  dev tools  */
+  grid-column: 2/5;
+  /* start / end track */
+
+}
+/* clean syntax */
+/* grid-column for individual property */
+/* span ie it will space around with n numbers of columns or rows */
+
+ 
