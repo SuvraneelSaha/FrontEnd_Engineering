@@ -67,3 +67,27 @@ section{
   background-color: #282e34;
   color: #ddd;
 }
+
+.image{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* one possible solution */
+
+  /* this is the parent of the divs present inside of it  */
+  position: relative;
+}
+
+.image div{
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  /* possible solution number 2  */
+  position: absolute;
+  top: 50%;
+  /* for positioning from the respect of top  */
+  width: 100%;
+  /* the whole width of the parent will be taken */
+  text-align: center;
+
+}
