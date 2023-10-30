@@ -90,4 +90,16 @@ section{
   /* the whole width of the parent will be taken */
   text-align: center;
 
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  /* for lettering of the alphabets */
+
+}
+
+.first-image span{
+  color: white;
+  background-color: #111;
+  padding: 20px;
 }
