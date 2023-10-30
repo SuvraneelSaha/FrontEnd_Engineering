@@ -1,0 +1,69 @@
+html{
+  box-sizing: border-box;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+/* there is default margin and padding in browsers  */
+body{
+  margin: 0;
+  padding: 0;
+}
+/* we will define margin and padding whenever we need it  */
+
+
+/* in a div we can give background color and we also can give background image */
+.first-image{
+  background-image: url('./img/1.jpeg');
+  min-height: 500px;
+  /* mi-height of 100% - it gets confused ie the 100% of  what  */
+  opacity: 0.8;
+  /* range 0 - 1 in decimals 
+  if 1 then fully translucent
+  0 fully opaque */
+}
+.second-image{
+  background-image: url('./img/2.webp');
+  min-height: 500px;
+}
+
+.third-image{
+  background-image: url('./img/3.jpeg');
+  min-height: 500px;
+}
+
+.fourth-image{
+  background-image: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&q=80&w=2144&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  min-height: 500px;
+  opacity: 0.8;
+}
+.first-image, .second-image, .third-image, .fourth-image{
+  background-position: center;
+  /* centers the image  */
+  background-size: cover;
+  /* stretches the image to cover the dimensions  */
+  /* uptill this point nothing is coming up */
+  /* why there is no image displaying in the div 
+  the reason is that when we use an img element it is an inline element 
+  it takes the size of the img itself , but here in this case we are using url for the background image 
+  so we need to specify the height of the div so that the image gets rendered as the size of the div  */
+
+background-attachment: fixed;
+/* this property helps to achieve the parallax effect  */
+}
+
+section{
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #0f0f0f;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
