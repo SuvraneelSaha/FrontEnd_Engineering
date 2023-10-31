@@ -8,7 +8,7 @@
   --dark-sky-blue: #c7ecee;
   --light-gray: #ccc;
 }
-
+/* root is used for making variables for any values to the css properties */
 html {
   box-sizing: border-box;
 }
