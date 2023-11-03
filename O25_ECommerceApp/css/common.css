@@ -55,10 +55,3 @@ html {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
 }
 
-.clear-filter {
-  margin-top: 1rem;
-}
-
-.price-filter .price-filter-select > div {
-  margin-bottom: 0.5rem;
-}
