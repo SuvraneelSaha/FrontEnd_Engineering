@@ -4,7 +4,9 @@
 #price-filter-label-max {
   flex-basis: 50%;
 } 
-
+/* if one item ie here in this case price-filter-label-min and price-filter-label-max are both inside of a parent div 
+price-filter-title so if anyone of the child element specifies the flex-basis of itself then the flex-basis of the 
+other one will be adjusted   */
 .product-list-title {
   font-size: 3rem;
   margin: 40px 0;
@@ -76,7 +78,7 @@
 .product-list-box .product-item:nth-child(3n) {
   margin-right: 0;
 }
-
+/* n being 0 , 1 ,2 ..  */
 .product-list-box .product-item:hover {
   box-shadow: 0px 4px 10px var(--light-gray);
   transition: box-shadow 0.15s linear 0s;

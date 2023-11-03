@@ -41,33 +41,41 @@
               <!-- container and row for the basic bootstrap classes -->
 
                 <h2 class="product-list-title text-center">All Products</h2>
-
+                <!-- text-center is a class for bootstrap -->
                 <div class="product-list-wrapper d-flex flex-row">
                     <!-- sidebar -->
                     <div class="product-list-sidebar d-flex flex-column">
+                        <!-- d-flex and flex-column are the two classes for bootstrap -->
 
                         <div class="sidebar-title">Search Products</div>
                         <div class="sidebar-search form-group">
+                            <!-- form-group is a bootstrap class -->
                             <input type="text" placeholder="Search by name" class="form-control" id="searchInput">
+                            <!-- also form-control is a bootstrap class -->
                         </div>
 
                         <div class="sidebar-title fw-bold">Categories</div>
+                        <!-- fw-bold - font weight bold -->
                         <div id="categoryList">
                             <a href="#" class="d-flex text-decoration-none">Electronics</a>
                             <a href="#" class="d-flex text-decoration-none">Kitchen ware</a>
                             <a href="#" class="d-flex text-decoration-none">Women outfit</a>
                             <a href="#" class="d-flex text-decoration-none">Sports</a>
                             <a href="#" class="d-flex text-decoration-none">Gaming</a>
-
+                            <!-- note same thing can be achieved using other ways also 
+                            ex- if we used a class in the div and given it d-flex and flex-column then
+                            we will also have the same result instead of writing d-flex for many items -->
                         </div>
 
 
                         <div class="sidebar-title">Filter by price</div>
+                        
                         <div class="price-filter">
                             <div class="price-filter-select d-flex flex-row justify-content-between">
                                 <div class="form-group">
                                      <!-- form-group is a bootstrap class -->
                                     <select name="minPrice" class="form-select" id="minPrice">
+                                        <!-- form-select is a bootstrap class -->
                                         <option value="0">0</option>
                                         <option value="1000">1000</option>
                                         <option value="2000">2000</option>
@@ -91,6 +99,7 @@
                                     </select>
                                 </div>
                             </div>
+
                             <div class="price-filter-title d-flex flex-row justify-content-between">
                                 <div id="price-filter-label-min">Min Price</div>
                                 <div id="price-filter-label-max">Max Price</div>
@@ -98,6 +107,7 @@
                         </div>
 
                         <button class="btn btn-danger clear-filter" id="clear">Clear Filters</button>
+                        
                     </div>
 
 

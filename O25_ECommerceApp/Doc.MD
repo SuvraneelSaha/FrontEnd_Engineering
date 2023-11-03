@@ -5,3 +5,7 @@
 [Justify Content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 
 [Text Decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration)
+
+[Box-Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+[Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
