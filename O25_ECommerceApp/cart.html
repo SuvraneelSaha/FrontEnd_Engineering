@@ -34,90 +34,239 @@
 
 
         <div class="container">
-            <div class="row">
+          <div class="row">
+            <!-- container and row are the two classes of bootstrap -->
+              <h2 class="cart-title text-center">Your cart</h2>
 
-                <h2 class="cart-title text-center">Your cart</h2>
+              <div class="cart-wrapper d-flex flex-row">
+                <!-- it acts as a whole wrapper to all the contents -->
 
-                <div class="cart-wrapper d-flex flex-row">
-                
                   <div class="order-details d-flex flex-column" id="orderDetails">
-                        <!-- todo -->
-                        <div class="order-details-title fw-bold">Order Details</div>
+                    <!-- for the order-details -->
+                      <!-- todo -->
+                      <div class="order-details-title fw-bold text-center">Order Details</div>
 
-                        <div class="order-details-product d-flex flex-row">
+                      <div class="order-details-product d-flex flex-row">
+                        <!-- d-flex and flex-row are the bootstrap classes -->
 
-                            <div class="order-details-product-img d-flex">
-                                <img src="img/product.jpg" alt="">
-                            </div>
+                          <div class="order-details-product-img d-flex">
+                              <img src="img/product.jpg" alt="">
+                          </div>
+                          
+                          <div class="order-details-product-data d-flex flex-column">
+                              <div>Some product</div>
+                              <div>&#8377; 10000</div>
+                          </div>
 
-                            <div class="order-details-product-data d-flex flex-column">
-                                <div>Some product</div>
-                                <div>&#8377; 10000</div>
-                            </div>
+                          <div class="order-details-product-actions d-flex flex-column">
 
-                            <div class="order-details-product-actions d-flex flex-column">
-                                <div class="order-details-product-quantity">
-                                    <div class="fw-bold">Quantity</div>
-                                    <div class="form-group">
-                                        <select name="" id="" class="form-select">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="order-details-product-remove btn btn-danger">Remove</div>
-                            </div>
+                              <div class="order-details-product-quantity">
 
-                        </div>
-                        
-                        <!-- below products are copy paste -->
-                  
+                                  <div class="fw-bold">Quantity</div>
+
+                                  <div class="form-group">
+                                      <select name="form-select" id="form-select" class="form-select">
+                                        <!-- the name and id is for the backend  -->
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                          <option value="3">3</option>
+                                          <option value="4">4</option>
+                                          <option value="5">5</option>
+                                          <!-- value means the value that will be passed to the server ie the backend server -->
+                                      </select>
+
+                                  </div>
+
+                              </div>
+
+                              <div class="order-details-product-remove btn btn-danger">Remove</div>
+
+                          </div>
+
+                      </div>
+                      
+                      <!-- below products are copy paste -->
+                      <hr>
+
+                      <div class="order-details-product d-flex flex-row">
+                        <!-- d-flex and flex-row are the bootstrap classes -->
+
+                          <div class="order-details-product-img d-flex">
+                              <img src="img/product.jpg" alt="">
+                          </div>
+                          
+                          <div class="order-details-product-data d-flex flex-column">
+                              <div>Some product</div>
+                              <div>&#8377; 10000</div>
+                          </div>
+
+                          <div class="order-details-product-actions d-flex flex-column">
+
+                              <div class="order-details-product-quantity">
+
+                                  <div class="fw-bold">Quantity</div>
+
+                                  <div class="form-group">
+                                      <select name="form-select" id="form-select" class="form-select">
+                                        <!-- the name and id is for the backend  -->
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                          <option value="3">3</option>
+                                          <option value="4">4</option>
+                                          <option value="5">5</option>
+                                          <!-- value means the value that will be passed to the server ie the backend server -->
+                                      </select>
+
+                                  </div>
+
+                              </div>
+
+                              <div class="order-details-product-remove btn btn-danger">Remove</div>
+
+                          </div>
+                          
+                      </div>
+
+                      <hr>
+
+                      <div class="order-details-product d-flex flex-row">
+                        <!-- d-flex and flex-row are the bootstrap classes -->
+
+                          <div class="order-details-product-img d-flex">
+                              <img src="img/product.jpg" alt="">
+                          </div>
+                          
+                          <div class="order-details-product-data d-flex flex-column">
+                              <div>Some product</div>
+                              <div>&#8377; 10000</div>
+                          </div>
+
+                          <div class="order-details-product-actions d-flex flex-column">
+
+                              <div class="order-details-product-quantity">
+
+                                  <div class="fw-bold">Quantity</div>
+
+                                  <div class="form-group">
+                                      <select name="form-select" id="form-select" class="form-select">
+                                        <!-- the name and id is for the backend  -->
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                          <option value="3">3</option>
+                                          <option value="4">4</option>
+                                          <option value="5">5</option>
+                                          <!-- value means the value that will be passed to the server ie the backend server -->
+                                      </select>
+
+                                  </div>
+
+                              </div>
+
+                              <div class="order-details-product-remove btn btn-danger">Remove</div>
+
+                          </div>
+                          
+                      </div>
+
+                      <hr>
+
+                      <div class="order-details-product d-flex flex-row">
+                        <!-- d-flex and flex-row are the bootstrap classes -->
+
+                          <div class="order-details-product-img d-flex">
+                              <img src="img/product.jpg" alt="">
+                          </div>
+                          
+                          <div class="order-details-product-data d-flex flex-column">
+                              <div>Some product</div>
+                              <div>&#8377; 10000</div>
+                          </div>
+
+                          <div class="order-details-product-actions d-flex flex-column">
+
+                              <div class="order-details-product-quantity">
+
+                                  <div class="fw-bold">Quantity</div>
+
+                                  <div class="form-group">
+                                      <select name="form-select" id="form-select" class="form-select">
+                                        <!-- the name and id is for the backend  -->
+                                          <option value="1">1</option>
+                                          <option value="2">2</option>
+                                          <option value="3">3</option>
+                                          <option value="4">4</option>
+                                          <option value="5">5</option>
+                                          <!-- value means the value that will be passed to the server ie the backend server -->
+                                      </select>
+
+                                  </div>
+
+                              </div>
+
+                              <div class="order-details-product-remove btn btn-danger">Remove</div>
+
+                          </div>
+                          
+                      </div>
+
+                  </div>
+
+                  <div class="price-details d-flex flex-column" id="priceDetails">
+
+                      <div class="price-details-box">
+
+                          <!-- todo -->
+
+                          <div class="price-details-title fw-bold text-center">Price Details</div>
+                          <hr>
+
+                          <div class="price-details-data">
+
+                              <div class="price-details-item d-flex flex-row justify-content-between">
+                                  <div>Price</div>
+                                  <div>&#8377; 10000</div>
+                              </div>
+
+                              <div class="price-details-item d-flex flex-row justify-content-between">
+                                  <div>Discount</div>
+                                  <div>&#8377; 10</div>
+                              </div>
+
+                              <div class="price-details-item d-flex flex-row justify-content-between">
+                                  <div>Delivery Charges</div>
+                                  <div>FREE</div>
+                              </div>
+                              <hr>
+                              <div class="price-details-item d-flex flex-row justify-content-between">
+                                  <div>Total : </div>
+                                  <div>&#8377; 9990</div>
+                              </div>
+                              
+                          </div>
+
+                      </div>
+                      
+
+                      <div class="price-details-btn-group d-flex justify-content-between">
+                        <a href="productList.html" class="continue-shopping-btn btn btn-info text-decoration-none">
+                            Continue Shopping
+                        </a>
+                        <a href="checkout.html" class="checkout-btn btn btn-primary text-decoration-none">
+                            Checkout
+                        </a>
                     </div>
+                      
+                  </div>
 
-                    <div class="price-details d-flex flex-column" id="priceDetails">
-                        <div class="price-details-box">
 
-                            <!-- todo -->
+              </div>
 
-                            <div class="price-details-title fw-bold">Price Details</div>
-                            <div class="price-details-data">
-                                <div class="price-details-item d-flex flex-row justify-content-between">
-                                    <div>Price</div>
-                                    <div>&#8377; 10000</div>
-                                </div>
-                                <div class="price-details-item d-flex flex-row justify-content-between">
-                                    <div>Discount</div>
-                                    <div>&#8377; 10</div>
-                                </div>
-                                <div class="price-details-item d-flex flex-row justify-content-between">
-                                    <div>Delivery Charges</div>
-                                    <div>FREE</div>
-                                </div>
-                                <div class="price-details-item d-flex flex-row justify-content-between">
-                                    <div>Total</div>
-                                    <div>&#8377; 9990</div>
-                                </div>
-                            </div>
 
-                        </div>
+          </div>
 
-                        <div class="price-details-btn-group">
-                            <a href="productList.html" class="continue-shopping-btn btn btn-info text-decoration-none">
-                                Continue Shopping
-                            </a>
-                            <a href="checkout.html" class="checkout-btn btn btn-primary text-decoration-none">
-                                Checkout
-                            </a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
+
+  </div>
     
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
