@@ -26,6 +26,7 @@
 
 .order-details-product-img img {
   max-width: 100%;
+  /* max-width for responsiveness */
 }
 
 .order-details-product-data {
@@ -56,9 +57,15 @@
   flex-basis: 30%;
   margin-left: 2rem;
   gap: 2rem;
+  /* for stickyness below  */
+  /* why align-self is required is that as this class is inside of a parent element 
+  where the display is given as flex so to override that property we use align self  */
   align-self: flex-start;
   position: sticky;
+  /* position : fixed can also be done */
   top: 10px;
+  /* from which direction so top property */
+  /* these above 3 css property for the sticky price-details class  */
 }
 
 .price-details-box {
