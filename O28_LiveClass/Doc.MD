@@ -52,3 +52,22 @@ Grid Challenge
 ~~~
 
 [Grid Challenge Website](https://designyourlife.com.au/podcasts/)
+
+[GFG Bootcamp list free ](https://www.geeksforgeeks.org/free-coding-bootcamps/?ref=rightsidebar-card)
+
+~~~
+How can you be better at designing and making websites with just html and css 
+
+the answer is to build websites 
+dont follow a channel or dont watch tutorials on anything 
+you when starting need to obviously follow some videos and tutorials but after that phase 
+you no longer need to watch any of those things , 
+
+Replace that with coding and building websites . there are plenty of websites to draw inspiration from 
+ so better look up in the web for these websites and use html and css to clone them or make as near perfect to the original 
+ material . 
+
+and after that just jump straight to javascript , nothing else matters more than javascript . 
+do dsa questions with js do everything 
+make it your wife . and see how she gives you rewards . 
+~~~
