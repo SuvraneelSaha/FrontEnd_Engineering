@@ -1,0 +1,1 @@
+## Follow the Below Handwritten notes for the javascript Basics which will be uploaded soon 
