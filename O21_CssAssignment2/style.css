@@ -1,4 +1,12 @@
 /* General Styles */
+/* html{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+} */
+
+
 body, html {
   height: 100%;
   margin: 0;
@@ -27,6 +35,7 @@ header {
 nav ul {
   display: flex;
   list-style-type: none;
+  
   justify-content: space-evenly;
   padding-left: 0;
 }
@@ -45,8 +54,9 @@ nav li a:hover {
 }
 
 /* Bug #1 (Easy) */
-section {
-  background-color: #fff;
+#contact {
+  background-color: #eaeaea;
+  /* this is the solution - background-color */
 }
 
 /* Bug #2 (Medium) */
@@ -54,15 +64,20 @@ section {
   display: inline-block;
   width: 50%;
 }
+/* solution to the above */
+#about{
+  display: flex;
+  flex-direction: column;
+}
 
 /* Bug #3 (Hard) */
 main {
-  flex: 1;
   display: flex;
+  /* flex: 1; */
   flex-direction: column;
 }
 
 /* Bug #4 (Very Hard) */
 footer {
-  margin-top: auto;
+ 
 }
