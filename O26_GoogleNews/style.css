@@ -1,0 +1,86 @@
+/* html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+} */
+
+/* for the body  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+div {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+.google_img {
+  height: 24px;
+  width: 74px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* for the search bar */
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+.search-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type=text] {
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.parent{
+  display: flex;
+ 
+}
+
+.search-container i {
+  color: red; 
+ 
+}
+/* Change the color to your preference */
+
+.navbarHead{
+  background-color: #202124;
+  display: flex;
+}
+.icon_holder{
+  display: inline-block;
+}
