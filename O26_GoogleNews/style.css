@@ -36,6 +36,7 @@ div {
   scroll-behavior: smooth;
 }
 
+/* for the google image */
 
 .google_img {
   height: 24px;
@@ -45,11 +46,11 @@ div {
 }
 
 /* for the search bar */
-.navbar {
+/* .navbar {
   background-color: #333;
   padding: 15px;
   text-align: center;
-}
+} */
 
 .search-container {
   display: inline-block;
@@ -83,4 +84,5 @@ input[type=text] {
 }
 .icon_holder{
   display: inline-block;
+  
 }
