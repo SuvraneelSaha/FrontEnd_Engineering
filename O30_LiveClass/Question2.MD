@@ -19,3 +19,19 @@ const cancel = setCancellableTimeout(() => {
 cancel();
 // t = 100: i is still 0 because cancel() was called.
 ```
+
+
+### Topics 
+```
+Coercion important 
+
+Practice Practice Practice 
+
+Make projects and learn in one go 
+it will make your 
+
+read about the properties 
+and do the due research 
+
+make sure you know end to end of the project 
+```
