@@ -29,3 +29,5 @@ Example --
 we go to the bank to deposit money , we dont know how the cashier works behind the counter , we just know that when we give our money , the cashier takes our money and gives us a slip prompting that our money has been deposited . We can use this feature of cash deposit but we dont know how it is doing behind the scenes . So this is an Abstract Operation . 
 
 ~~~
+
+[EcmaScript Abstract Operations](https://262.ecma-international.org/14.0/#sec-abstract-operations)
